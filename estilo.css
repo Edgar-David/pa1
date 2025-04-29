@@ -1,0 +1,131 @@
+/*Codigo desarrollado para la sesion03*/
+:root{
+--colorhtml:#D94625;
+--colorcss:#0477BF;
+--colorjs:#6BA614;
+--colorhtml2:#f2edec;
+--colorcss2:#e6ebee;
+--colorjs2:#e8ede0;
+--colorisil:#00ADF1;
+
+}
+body{
+    font-family: "Barlow", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+#contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /*background-color: #fff;*/
+    background-image: url(imagenes/fondo.jpg);
+    border:2px dotted grey;
+}
+#cabecera img{
+    height: 100px;
+    border-radius: 50%;
+}
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid grey;
+    padding:10px;
+    background-color: white;
+}
+h1{
+    color:var(--colorisil);
+    text-shadow: 2px 5px 10px grey;
+}
+#autor{
+    text-align: end;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;    
+}
+span{
+    background-color: white;
+    padding:2px;
+}
+.tecnologias h4{
+    color:white;
+    padding: 5px;
+    margin: 0;
+}
+h3{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+h4{text-align: center;}
+.html h4{background-color: var(--colorhtml);}
+.html{background-color: var(--colorhtml2);}
+.css h4{background-color: var(--colorcss);}
+.css{background-color: var(--colorcss2);}
+.javascript h4{background-color: var(--colorjs);}
+.javascript{background-color: var(--colorjs2);}
+
+.lenguaje{
+    width:30%;
+    border:1px solid;
+    padding:5px; 
+}
+.lenguaje img{
+    max-width: 50%;
+    display: block;
+    margin:auto;
+   
+}
+.tecnologias{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:3px solid;
+    font-size: 14px;
+    padding:10px;    
+}
+#contenedor>img{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px grey;
+    border:1px solid grey; 
+       
+}
+hr{
+    border-color: grey;
+    width: 90%;
+}
+#resumen{
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0)
+}
+#resumen p{
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    color: #555;
+}
+button{
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;    
+}
+button:hover{
+    background-color: #45a049;
+}
